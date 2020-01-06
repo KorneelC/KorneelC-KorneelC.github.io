@@ -1,9 +1,9 @@
 body {
     margin: 0 auto;
-    width: 1024px;
+    width: 64rem;
     background-color: gray;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 19px;
+    font-size: 1rem;
 }
 .head-wrapper {
     display: flex;
@@ -30,7 +30,7 @@ body {
 /*personalia*/
 .hd {
     border-bottom: 1px solid gray;
-    padding-bottom: 5px;
+    padding-bottom: 0.2rem;
     font-family: 'Slabo 27px', cursive;
 }
 .upper-person {
@@ -51,7 +51,7 @@ body {
     flex-wrap: wrap;
 }
 .align {
-    width: 40%;
+    width: 45%;
 }
 .align::first-letter {
     text-transform: uppercase;
@@ -68,7 +68,7 @@ body {
 }
 .hd2 {
     border-bottom: 1px solid gray;
-    padding-bottom: 25px;
+    padding-bottom: 1.3rem;
     width: 100%;
     font-family: 'Slabo 27px', cursive;
 }
@@ -81,12 +81,12 @@ body {
     margin-bottom:1%;
 }
 .prog {
-    width: 40%;
+    width: 60%;
     height: 3%;
     margin: 2%;
 }
 .prog-bar {
-    width: 40%;
+    width: 30%;
     height: 3vh;
     margin:3%;
     background-color: aqua;
@@ -111,4 +111,10 @@ p {
 }
 ul {
     margin-top: 0;
+}
+
+/* media query phone */
+
+@media only screen and (max-width: 600px) {
+   
 }
