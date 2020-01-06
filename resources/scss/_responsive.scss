@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+    .content {
+        font-size: 1rem;
+        padding: 1rem;
+        line-height: 2.2rem;
+    }
+    .work-btn {
+        font-size: 14pt;
+    }
+    .skill-title {
+        height: 10vh;
+    }
+    .donut {
+        justify-content: space-around;
+        height: auto;
+        width: 100%;
+        margin-bottom: 3vh ;
+    }
+    .parallax2 {
+        min-height: 190vh;
+    }
+    .row {
+        height: 160vh;
+    }
+    .projects {
+        height: 50vh;
+        width: 90vw;
+    }
+    .content1 {
+        padding: 0 1rem;
+    }
+    
+
+
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .parallax2,.parallax1 {
+        min-width: 100vw;
+    }
+    .skill-title {
+        height: 10vh;
+    }
+    .content {
+        font-size: 1.4rem;
+        padding: 1rem;
+        line-height: 2.6rem;
+    }
+    .between-wrapper {
+        min-height: auto;
+        padding: 2rem;
+    }
+    .column {
+        width: auto;
+    }
+    .donut {
+        height: auto;
+    }
+    .imagesWork {
+        height: 20rem;;
+    }
+    .projects {
+        height: auto;
+        margin-top: 1rem;
+        width: 45%;
+    }
+    
+}
