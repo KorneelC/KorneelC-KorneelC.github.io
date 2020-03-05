@@ -1,0 +1,375 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+/* navigation */
+.linken {
+  color: white;
+  text-decoration: none;
+}
+
+.linken:hover {
+  color: #19ebeb;
+}
+
+.fa-linkedin, .fa-github {
+  color: aqua;
+  font-size: 1rem;
+}
+
+.fa-linkedin:hover, .fa-github:hover {
+  color: white;
+}
+
+.navbar {
+  width: 98.8vw;
+  bottom: 0%;
+  position: fixed;
+  justify-content: space-around;
+  display: flex;
+  z-index: 2;
+  background-image: linear-gradient(rgba(224, 204, 204, 0.589), rgba(59, 53, 53, 0.5));
+  height: 4vh;
+  align-items: center;
+}
+
+/* my name in the color blue */
+.name {
+  color: #19ebeb;
+}
+
+#becode {
+  text-decoration: none;
+  color: #19ebeb;
+}
+
+#becode:hover {
+  color: navy;
+}
+
+.title-d {
+  display: block;
+}
+
+/* button to navigate to my work */
+.work-btn {
+  color: white;
+  border: 2px solid white;
+  background-color: Transparent;
+  cursor: pointer;
+  outline: none;
+  display: block;
+  padding: 0.5rem;
+  font-size: 16pt;
+  margin-top: 2vh;
+}
+
+.work-btn:hover {
+  background-color: #19ebeb;
+  border: 2px solid #19ebeb;
+  transition: 0.5s;
+}
+
+.work-btn > a {
+  color: white;
+  text-decoration: none;
+}
+
+/* makes the font-size smaller for the learn more buttons */
+.button2 {
+  font-size: 10pt;
+}
+
+/* arrow for the work-button */
+.fa-arrow-left {
+  transform: scaleX(-1);
+}
+
+/* content for the first page */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  font-size: 1.66rem;
+  line-height: 3rem;
+}
+
+/* Skills --> inbetween the 2 parallax */
+.between-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 98.8vw;
+  color: #19ebeb;
+  background-color: #050529;
+  line-height: 3rem;
+  justify-content: space-evenly;
+}
+
+/* skill-title for the between section */
+.skill-title {
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 98.8vw;
+}
+
+/* settings for the donut and the accompanied skill */
+.donut-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.donut {
+  width: 10rem;
+  height: 10rem;
+}
+
+.donut-ring {
+  stroke: #EBEBEB;
+}
+
+.donut-segment {
+  stroke: #19ebeb;
+  animation: donut 3s;
+}
+
+@keyframes donut {
+  0% {
+    stroke-dasharray: 0, 100;
+  }
+}
+.donut-text {
+  font-family: Arial, Helvetica, sans-serif;
+  fill: #19ebeb;
+}
+
+.donut-percent {
+  font-size: 0.5rem;
+  line-height: 1;
+  transform: translateY(0.5rem);
+  font-weight: bold;
+}
+
+.donut-data {
+  font-size: 0.12rem;
+  line-height: 1;
+  transform: translateY(0.5rem);
+  text-align: center;
+  text-anchor: middle;
+  color: #023336;
+  fill: #023336;
+}
+
+/* page 2 */
+.content1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+/* The global settings voor the backgrounds */
+.parallax1, .parallax2 {
+  /* Full height */
+  min-height: 100vh;
+  min-width: 98.8vw;
+  position: absolute;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* background for page 1 */
+.parallax1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background-portfolio2.jpg");
+}
+
+/* background for page 2 */
+.parallax2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/par2.jpg");
+}
+
+h3 {
+  padding-left: 0.6rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.title {
+  border-bottom: 0.2vh solid white;
+  margin-top: 3vh;
+  height: 10vh;
+}
+
+.btn-wrap {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  justify-content: space-evenly;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.skill-btn {
+  border: none;
+  color: white;
+  background-color: transparent;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  width: 8rem;
+}
+
+.skill-btn:hover {
+  cursor: pointer;
+  color: #19ebeb;
+}
+
+.imagesWork, .description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 28%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 0 1rem 0 1rem;
+  border-radius: 12px;
+}
+
+.description {
+  background-color: black;
+}
+
+.btnDescription {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagesWork > p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
+@media only screen and (max-width: 600px) {
+  .content {
+    font-size: 1rem;
+    padding-left: 1rem;
+    line-height: 2.2rem;
+  }
+
+  .work-btn {
+    font-size: 14pt;
+  }
+
+  .skill-title {
+    height: 10vh;
+  }
+
+  .donut {
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    margin-bottom: 3vh;
+  }
+
+  .parallax1, .parallax2, .between-wrapper {
+    width: 100vw;
+  }
+
+  .parallax2 {
+    min-height: 190vh;
+  }
+
+  .row {
+    height: 160vh;
+  }
+
+  .imagesWork, .description {
+    height: 50vh;
+    width: 90vw;
+  }
+
+  .content1 {
+    padding: 0 1rem;
+  }
+
+  .skill-btn {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .navbar {
+    width: 100vw;
+    height: 3vh;
+  }
+
+  .parallax2, .parallax1 {
+    width: 100vw;
+  }
+
+  .skill-title {
+    height: 10vh;
+  }
+
+  .content {
+    font-size: 1.4rem;
+    padding: 0rem 1rem 0rem 1rem;
+    line-height: 2.6rem;
+  }
+
+  .between-wrapper {
+    min-height: auto;
+    width: 100vw;
+  }
+
+  .column {
+    width: auto;
+  }
+
+  .donut {
+    height: auto;
+  }
+
+  .imagesWork, .description {
+    margin-top: 1rem;
+    height: 20rem;
+    width: 45%;
+  }
+}
+body, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
